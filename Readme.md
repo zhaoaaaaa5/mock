@@ -20,3 +20,12 @@
    # 启动项目
    npm serve
    ```
+4. 数据请求访问连接该项目ip和端口，访问需要模拟数据的文件名即可
+
+   `server.js`已对`method`做定向，目前只测试到`get`、`post`请求方法可用
+   
+   axios框架示例
+   >```javascript
+   >axios.get('/data.json')
+   >axios.post('/data.json')
+   >```
