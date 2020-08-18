@@ -18,7 +18,7 @@
    # 同步依赖
    npm install
    # 启动项目
-   npm serve
+   npm run serve
    ```
 4. 数据请求访问连接该项目ip和端口，访问需要模拟数据的文件名即可
 
