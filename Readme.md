@@ -6,7 +6,7 @@
   
    监听端口 `prot`可随意修改
    >```javascript
-   >const port = 20000
+   >const port = 22222
    >app.listen(port, () => 
    >    console.log(`本机服务已启动>>> http://${getIP()}:${port}`)
    >);
